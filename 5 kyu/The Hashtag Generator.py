@@ -1,0 +1,6 @@
+def generate_hashtag(s):
+    hashtag = "#" + s.title().replace(" ", "")
+    return hashtag if 1 < len(hashtag) < 141 else False
+
+
+print(generate_hashtag("OMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMGOMG"))
